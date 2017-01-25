@@ -33,7 +33,7 @@ public:
 
     bool operator !=(const Point& rhs) const
     {
-    return x != rhs.x || y != rhs.y || z != rhs.z;
+    return !(*this == rhs);
     }
 
 
