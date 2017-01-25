@@ -12,12 +12,12 @@ public:
 
 
 };
-Point pt;
+
 
 
 int main ()
 {
-
+Point pt;
 
 
 
