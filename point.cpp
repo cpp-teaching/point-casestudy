@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <cmath>
 
 class Point {
 
@@ -16,6 +16,19 @@ public:
     int x;
     int y;
     int z;
+
+
+
+    int get_magnitude()
+    {
+    int mag = std::sqrt(x*x + y*y +z*z);
+
+    return mag;
+    }
+
+private:
+    int magnitude = get_magnitude();
+
 
 
 
