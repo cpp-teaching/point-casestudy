@@ -55,11 +55,13 @@ public:
 
 
 
-     Point operator +=(Point& rhs)
+     Point& operator +=(Point& rhs)
     {
     x += rhs.x;
     y += rhs.y;
     z += rhs.z;
+
+    return *this;
     }
 
 
