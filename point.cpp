@@ -26,6 +26,18 @@ public:
     return mag;
     }
 
+    bool operator ==(const Point& rhs) const
+    {
+
+    if (x == rhs.x|| y == rhs.y||z == rhs.z )
+    {
+        return true;
+    }
+    else
+    return false;
+
+
+    }
 
 
 
@@ -64,9 +76,6 @@ stream<< pt.x <<std::endl<<pt.y<< std::endl << pt.z;
 return stream;
 
 }
-
-
-
 
 
 
