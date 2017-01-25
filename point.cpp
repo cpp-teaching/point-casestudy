@@ -55,7 +55,7 @@ public:
 
 
 
-     Point& operator +=(Point& rhs)
+     Point& operator +=(const Point& rhs)
     {
     x += rhs.x;
     y += rhs.y;
@@ -86,7 +86,7 @@ public:
 
 
 
-    Point operator *=(const int rhs)
+    Point& operator *=(const int rhs)
     {
 
     x *= rhs;
