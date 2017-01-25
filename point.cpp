@@ -19,7 +19,7 @@ public:
 
 
 
-    int get_magnitude()
+    int get_magnitude() const
     {
     int mag = std::sqrt(x*x + y*y +z*z);
 
