@@ -76,9 +76,9 @@ public:
     int new_y = y * rhs;
     int new_z = z * rhs;
 
-    Point new_pt(new_x,new_y,new_z);
 
-    return new_pt;
+
+    return Point (new_x,new_y,new_z);
 
     }
 
