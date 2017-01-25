@@ -29,7 +29,7 @@ public:
     bool operator ==(const Point& rhs) const
     {
 
-    if (x == rhs.x|| y == rhs.y||z == rhs.z )
+    if (x == rhs.x&& y == rhs.y&&z == rhs.z )
     {
         return true;
     }
