@@ -54,6 +54,19 @@ public:
 
 
 
+
+     Point operator +=(Point& rhs)
+    {
+    x += rhs.x;
+    y += rhs.y;
+    z += rhs.z;
+    }
+
+
+
+
+
+
 private:
     int magnitude = get_magnitude();
 
