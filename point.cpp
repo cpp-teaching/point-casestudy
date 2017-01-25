@@ -69,6 +69,35 @@ public:
 
 
 
+    Point operator *(const int& rhs)
+    {
+
+    int new_x = x * rhs;
+    int new_y = y * rhs;
+    int new_z = z * rhs;
+
+    Point new_pt(new_x,new_y,new_z);
+
+    return new_pt;
+
+    }
+
+
+
+
+
+    Point operator *=(const int& rhs)
+    {
+
+    x *= rhs;
+    y *= rhs;
+    z *= rhs;
+
+    return *this;
+
+    }
+
+
 private:
     int magnitude = get_magnitude();
 
