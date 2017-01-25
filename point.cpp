@@ -46,8 +46,11 @@ int main ()
 {
 Point pt(5,3,10);
 
+Point pt2;
 
-    std::cout<<pt;
+    std::cout<<pt << std::endl<< std::endl;
+    std::cout<<pt2;
+
 
     return 0;
 }
