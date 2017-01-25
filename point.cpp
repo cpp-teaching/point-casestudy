@@ -69,7 +69,7 @@ public:
 
 
 
-    Point operator *(const int& rhs)
+    Point operator *(const int rhs) const
     {
 
     int new_x = x * rhs;
@@ -86,7 +86,7 @@ public:
 
 
 
-    Point operator *=(const int& rhs)
+    Point operator *=(const int rhs)
     {
 
     x *= rhs;
