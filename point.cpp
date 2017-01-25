@@ -31,6 +31,12 @@ public:
     return x == rhs.x && y == rhs.y && z == rhs.z;
     }
 
+    bool operator !=(const Point& rhs) const
+    {
+    return x != rhs.x || y != rhs.y || z != rhs.z;
+    }
+
+
 
 
     Point operator +(const Point& rhs) const
